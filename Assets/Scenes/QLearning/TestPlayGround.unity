@@ -462,10 +462,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b09744d94250472baae75646acec29f3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::Components.QLearning.QMindTester
   agent: {fileID: 1405488106}
   oponent: {fileID: 921274857}
-  speed: 10000
+  speed: 1000
   qMindClass: GrupoA.QMindTester, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
 --- !u!4 &403569453

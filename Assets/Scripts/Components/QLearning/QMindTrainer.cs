@@ -78,7 +78,7 @@ namespace Components.QLearning
         
         private void EpisodeFinished(object sender, EventArgs e)
         {
-            if (algorithmParams.episodes == -1 || _qMindTrainer.CurrentEpisode >= algorithmParams.episodes)
+            if (algorithmParams.episodes != -1 && _qMindTrainer.CurrentEpisode >= algorithmParams.episodes)
             {
                 Debug.Log($"Max episodes reached, stopping simulation");
                 EditorApplication.ExitPlaymode();
